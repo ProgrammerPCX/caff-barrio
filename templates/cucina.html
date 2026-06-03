@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="page-header"
+style="background-image:url('{{ url_for('static', filename='images/food1.jpg') }}');">
+
+<h1>La Cucina</h1>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">
+Sapori autentici
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="{{ url_for('static', filename='images/food1.jpg') }}">
+
+<h3>Colazioni</h3>
+
+<p>
+
+Ogni mattina proponiamo una selezione di brioche,
+pasticceria e caffetteria di qualità.
+
+L'obiettivo è trasformare la colazione
+in un momento di piacere e relax.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="{{ url_for('static', filename='images/food2.jpg') }}">
+
+<h3>Pausa Pranzo</h3>
+
+<p>
+
+Piatti semplici ma curati,
+ingredienti freschi
+e preparazioni giornaliere.
+
+Ideali per chi desidera mangiare bene
+senza rinunciare alla velocità del servizio.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">
+Asporto Disponibile
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="{{ url_for('static', filename='images/food3.jpg') }}">
+
+<h3>Take Away</h3>
+
+<p>
+
+Molte delle nostre proposte
+sono disponibili anche da asporto.
+
+Perfette per l'ufficio,
+la pausa lavoro
+o un pranzo veloce.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="{{ url_for('static', filename='images/food4.jpg') }}">
+
+<h3>Qualità e Freschezza</h3>
+
+<p>
+
+Utilizziamo ingredienti selezionati
+e preparazioni giornaliere
+per garantire gusto e qualità.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+{% endblock %}

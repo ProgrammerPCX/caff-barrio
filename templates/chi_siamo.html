@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="page-header"
+style="background-image:url('{{ url_for('static', filename='images/locale2.jpg') }}');">
+
+<h1>Chi Siamo</h1>
+
+</section>
+
+<section class="section">
+
+<div class="grid">
+
+<div class="card">
+
+<img src="{{ url_for('static', filename='images/locale1.jpg') }}">
+
+<h3>La Nostra Storia</h3>
+
+<p>
+
+CaffèBarrio nasce con l'obiettivo di offrire
+un punto di riferimento per il quartiere.
+
+Un luogo dove qualità, professionalità
+e accoglienza si incontrano ogni giorno.
+
+Dalla prima colazione fino all'aperitivo serale,
+il nostro team lavora per garantire
+un'esperienza piacevole e autentica.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="{{ url_for('static', filename='images/food3.jpg') }}">
+
+<h3>La Nostra Filosofia</h3>
+
+<p>
+
+Crediamo nella cura dei dettagli.
+
+Ogni prodotto viene selezionato
+con attenzione.
+
+Dalle miscele di caffè alle proposte gastronomiche,
+ogni scelta è orientata alla qualità.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">
+Perché scegliere CaffèBarrio
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Qualità</h3>
+
+<p>
+
+Prodotti selezionati,
+ingredienti freschi
+e servizio professionale.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Accoglienza</h3>
+
+<p>
+
+Un ambiente elegante
+ma familiare.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Esperienza</h3>
+
+<p>
+
+Un punto di riferimento
+per colazioni, pause pranzo
+e aperitivi.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+{% endblock %}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>CaffèBarrio Jesi</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/style.css') }}">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+
+CAFFÈBARRIO
+
+</div>
+
+<ul>
+
+<li><a href="/">Home</a></li>
+
+<li><a href="/chi-siamo">Chi Siamo</a></li>
+
+<li><a href="/cucina">Cucina</a></li>
+
+<li><a href="/menu">Menu</a></li>
+
+<li><a href="/contatti">Contatti</a></li>
+
+</ul>
+
+</nav>
+
+{% block content %}
+{% endblock %}
+
+<footer>
+
+<div class="footer-content">
+
+<h3>CaffèBarrio</h3>
+
+<p>
+Via Antonio Gramsci, 51<br>
+60035 Jesi (AN)
+</p>
+
+<p>
++39 347 300 0797
+</p>
+
+<div class="socials">
+
+<a href="https://www.facebook.com/p/Caff%C3%A8-barrio-61559779263438/" target="_blank">
+Facebook
+</a>
+
+<a href="https://www.instagram.com/caffe_barrio_" target="_blank">
+Instagram
+</a>
+
+</div>
+
+</div>
+
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="page-header"
+style="background-image:url('{{ url_for('static', filename='images/cocktail1.jpg') }}');">
+
+<h1>Menu</h1>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">
+Colazioni
+</h2>
+
+<div class="menu-grid">
+
+<div class="menu-item">
+<h3>Cappuccino</h3>
+<p>€ 1,80</p>
+</div>
+
+<div class="menu-item">
+<h3>Espresso</h3>
+<p>€ 1,30</p>
+</div>
+
+<div class="menu-item">
+<h3>Cornetto Artigianale</h3>
+<p>€ 1,50</p>
+</div>
+
+<div class="menu-item">
+<h3>Spremuta Fresca</h3>
+<p>€ 4,50</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">
+Pausa Pranzo
+</h2>
+
+<div class="menu-grid">
+
+<div class="menu-item">
+<h3>Insalata Gourmet</h3>
+<p>€ 9,00</p>
+</div>
+
+<div class="menu-item">
+<h3>Panino Barrio</h3>
+<p>€ 8,50</p>
+</div>
+
+<div class="menu-item">
+<h3>Toast Special</h3>
+<p>€ 6,50</p>
+</div>
+
+<div class="menu-item">
+<h3>Piatto del Giorno</h3>
+<p>€ 12,00</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">
+Aperitivi
+</h2>
+
+<div class="menu-grid">
+
+<div class="menu-item">
+<h3>Spritz Aperol</h3>
+<p>€ 6,50</p>
+</div>
+
+<div class="menu-item">
+<h3>Americano</h3>
+<p>€ 8,00</p>
+</div>
+
+<div class="menu-item">
+<h3>Negroni</h3>
+<p>€ 9,00</p>
+</div>
+
+<div class="menu-item">
+<h3>Tagliere Barrio</h3>
+<p>€ 14,00</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">
+Tabaccheria
+</h2>
+
+<div class="card">
+
+<p style="text-align:center;">
+
+Servizi di tabaccheria disponibili durante gli orari di apertura.
+
+Rivolgersi direttamente al personale per informazioni
+sui servizi attivi.
+
+</p>
+
+</div>
+
+</section>
+
+{% endblock %}
