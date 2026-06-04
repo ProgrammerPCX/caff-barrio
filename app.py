@@ -14,10 +14,6 @@ def chi_siamo():
 def cucina():
     return render_template("cucina.html")
 
-@app.route("/menu")
-def menu():
-    return render_template("menu.html")
-
 @app.route("/contatti")
 def contatti():
     return render_template("contatti.html")
