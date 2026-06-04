@@ -470,8 +470,9 @@ line-height:1.8;
 
     .hero{
 
-        min-height:100vh;
-        padding:120px 20px 40px 20px;
+        min-height:65vh;
+        
+        padding:100px 20px 30px 20px;
     }
 
     .hero h1{
@@ -581,6 +582,11 @@ line-height:1.8;
     .navbar a{
 
         font-size:0.85rem;
+    }
+
+    .hero{
+
+        min-height:45vh;
     }
 
     .hero h1{
