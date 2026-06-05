@@ -18,5 +18,9 @@ def cucina():
 def contatti():
     return render_template("contatti.html")
 
+@app.route('/google944c37ac645588ca.html')
+def google_verification():
+    return app.send_static_file('google944c37ac645588ca.html')
+
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=5000, debug=False)
